@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px)
+{
+    *{
+        color: red;
+    }
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 800px){
+    #gallery{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5em;
+    }
+
+}
+
+#gallery div{
+
+    background-image: url(../images/cupcake.png);
+    background-position: center;
+}
