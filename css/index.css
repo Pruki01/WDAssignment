@@ -29,55 +29,34 @@
     color: var(--secondary-font-color)
 }
 
-@media screen and (min-width: 1600px) {
+iframe{
 
-    #intro-coffee{
-        background-image: url(../images/Large/Coffee.jpg);
-        background-position: center;
-
-    }
-
-    #intro-drinks{
-        background-image: url(../images/Large/Drinks.jpg);
-        background-position: center;
-    }
-
-    #intro-desserts{
-
-        background-image: url(../images/Large/Desserts.jpg);
-        background-position: center;
-    }
-
-    #intro-pastry{
-        background-image: url(../images/Large/Pastry.jpg    );
-        background-position: center;
-    }
-    
+    border: none;
+    width: 40vw;
+    height: 50vh;
 }
-@media screen and (max-width:1600px){
-    
-    #intro-coffee{
-        background-image: url(../images/Medium/Coffee.jpg);
-        background-position: center;
+#intro-coffee{
+    background-image: url(../images/Medium/Coffee.jpg);
+    background-position: center;
 
-    }
-
-    #intro-drinks{
-        background-image: url(../images/Medium/Drinks.jpg);
-        background-position: center;
-    }
-
-    #intro-desserts{
-
-        background-image: url(../images/Medium/Desserts.jpg);
-        background-position: center;
-    }
-
-    #intro-pastry{
-        background-image: url(../images/Medium/Pastry.jpg);
-        background-position: center;
-    }
 }
+
+#intro-drinks{
+    background-image: url(../images/Medium/Drinks.jpg);
+    background-position: center;
+}
+
+#intro-desserts{
+
+    background-image: url(../images/Medium/Desserts.jpg);
+    background-position: center;
+}
+
+#intro-pastry{
+    background-image: url(../images/Medium/Pastry.jpg);
+    background-position: center;
+}
+
 @media screen and (max-width: 1000px){
 
     #information{
@@ -88,6 +67,12 @@
     #information div{
 
         margin: 2vh 0;
+    }
+
+    iframe{
+
+        width: 90vw;
+
     }
     
 }
@@ -100,6 +85,7 @@
         grid-template-columns: 1fr;
         height: 150vh;
     }
+
 
 }
 

@@ -1,29 +1,117 @@
-@media screen and (max-width: 1500px)
-{
-    *{
-        color: red;
-    }
-    #gallery{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 90vh;
-    }
-}
+#menu-brownies{
 
-@media screen and (min-width: 800px){
-    #gallery{
-        display: grid;
-        height: 90vh;
-        grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
-        gap: 1.5em;
-        margin: 1.5vh 2vw;
-        gap: 5em 10em;
-    }
-
-}
-
-#gallery div{
-
-    background-image: url(../images/cupcake.png);
+    background-image: url(../images/Medium/Brownies.jpg);
     background-position: center;
+
+}
+
+#menu-croissants{
+
+    background-image: url(../images/Medium/Croissants.jpg);
+    background-position: center bottom;
+
+}
+
+#menu-cupcake{
+
+    background-image: url(../images/Medium/Cupcake.jpg);
+    background-position: center;
+
+}
+
+#menu-espresso{
+
+    background-image: url(../images/Medium/Espresso.jpg);
+    background-position: center;
+
+}
+
+#menu-fruit-juice{
+
+    background-image: url(../images/Medium/FruitJuice.jpg);
+    background-position: center;
+
+}
+
+#menu-macchiato{
+
+    background-image: url(../images/Medium/Macchiato.jpg);
+    background-position: center;
+
+}
+
+#menu-scones{
+
+    background-image: url(../images/Medium/Scones.jpg);
+    background-position: center;
+
+}
+#menu-smoothie{
+
+    background-image: url(../images/Medium/Smoothie.jpg);
+    background-position: center;
+
+}
+
+#menu-soda{
+
+    background-image: url(../images/Medium/Soda.jpg);
+    background-position: center;
+
+}
+#menu-tiramisu{
+
+    background-image: url(../images/Medium/Tiramisu.jpg);
+    background-position: center;
+
+}
+#menu-white-flat-coffee{
+
+    background-image: url(../images/Medium/WhiteFlatCoffee.jpg);
+    background-position: center;
+
+}
+
+#menu{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1vh 1vw;
+    margin: 2.5vh 5vw;
+}
+
+#menu > div{
+
+    height: 40vh;
+
+}
+
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: .4s;
+
+}
+
+.card:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.4);
+
+}
+
+.menu-image{
+
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.menu-description{
+
+    padding: .25em .5em   ;
 }
