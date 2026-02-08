@@ -57,6 +57,10 @@ iframe{
     background-position: center;
 }
 
+h1{
+    color: white;
+}
+
 @media screen and (max-width: 1000px){
 
     #information{

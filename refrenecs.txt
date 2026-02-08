@@ -1,6 +1,5 @@
 Images
 hero.jpg - https://unsplash.com/photos/three-person-holding-beverage-cups-6VhPY27jdps
-cupcake.png - https://unsplash.com/photos/white-and-brown-cupcake-on-white-ceramic-plate-qdDQ6V7lV9Y
 
 Coffee - https://unsplash.com/photos/brown-coffee-beans-beside-white-ceramic-mug-h9Iq22JJlGk
 Desserts - https://unsplash.com/photos/chocolate-cake-on-white-ceramic-plate-2UeBOL7UD34
@@ -19,3 +18,5 @@ Brownies - https://unsplash.com/photos/a-pile-of-brownies-sitting-on-top-of-a-wh
 Croissants - https://unsplash.com/photos/croissant-on-top-of-stainless-steel-tray-lE5O9DktAQY
 Cinammon roles - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Funderatinroof.com%2Fblog%2Fsoft-and-gooey-cinnamon-rolls&ved=0CBYQjRxqFwoTCKjvuJ_hyJIDFQAAAAAdAAAAABBZ&opi=89978449
 Scones - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F79470%2Fsimple-scones%2F&ved=0CBYQjRxqFwoTCKDLj9bhyJIDFQAAAAAdAAAAABAj&opi=89978449
+
+favicon - https://www.flaticon.com/free-icon/hot-coffee-rounded-cup-on-a-plate-from-side-view_37908?term=coffee&page=1&position=27&origin=tag&related_id=37908
