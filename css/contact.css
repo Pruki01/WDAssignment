@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+form textarea{
+
+    width: 80vw;
+    height: 50vh;
+}
+button{
+    padding: .3em;
+}
+
+form *{
+
+    margin: 1.5vh 0;
+}
+
+input{
+
+    padding: 0.25em;
+}

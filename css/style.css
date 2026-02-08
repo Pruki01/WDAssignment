@@ -1,8 +1,15 @@
 :root{
-    --primary-bg-color: black;
+    --primary-bg-color: #0F0E0E;
+    --secondary-font-color: black;
 }
 
 body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1{
     margin: 0;
 }
 
@@ -11,18 +18,16 @@ nav{
   display: flex;  
   justify-content: space-evenly;
   align-items: center;
-  height: 4vh;
+  padding: 1vh 0;
 }
 
 nav a{
-    color: white;
+    color: var(--primary-color);
     text-decoration: none;
 }
 nav div{
     display: block;
     width: 45vw;
-}
-nav .logo-area{
 }
 nav .nav-area{
     text-align: end;
@@ -33,16 +38,51 @@ nav .nav-area{
     margin: 0 .5vw;
 }
 
-#hero-img{
-    background-image: url(../images/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    display: block;
-    height: 80vh;
+
+footer{
+
+    background-color: var(--primary-bg-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+
 }
 
-#information{
+.sm-links{
 
-    display: flex;
-    align-items: center;
+    font-size: 3em;
+}
+
+footer div{
+
+    margin: 0 2.5vw;
+}
+
+.background-image{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+iframe{
+
+    border: none;
+    width: 45vw;
+}
+
+@media screen and (max-width: 600px){
+    
+    .sm-links{
+
+        font-size: 1.5em;
+
+    }
+
+    footer div{
+
+        margin: 0 1.5vw;
+    }
+
 }
